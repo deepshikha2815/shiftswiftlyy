@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './logo.css';
 
+
 const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="shadow-sm p-3 mb-0">
@@ -12,10 +13,12 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <Nav.Link href="/" className="mx-3">Home</Nav.Link>
-            <Nav.Link href="#services" className="mx-3">Services</Nav.Link>
-            <Nav.Link href="#about" className="mx-3">About</Nav.Link>
-            <Nav.Link href="#contact" className="mx-3">Contact</Nav.Link>
-            <Nav.Link href="#login" className="mx-3">Login</Nav.Link>
+            <Nav.Link href="services" className="mx-3">Services</Nav.Link>
+            <Nav.Link href="about" className="mx-3">About</Nav.Link>
+            <Nav.Link href="contact" className="mx-3">Contact</Nav.Link>
+            
+            <Nav.Link href="login" className="mx-3">Login</Nav.Link>
+            <Nav.Link href="registration" className="mx-3">Register</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

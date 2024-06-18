@@ -2,6 +2,9 @@ import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import OurServices from '../Modules/OurServices';
 import WorkingProcess from '../Modules/WorkingProcess';
+import Footer from '../Modules/Footer';
+
+
 
 const Home = () => {
   const imageStyle = {
@@ -56,6 +59,8 @@ const Home = () => {
     </Carousel>
    <OurServices/>
    <WorkingProcess/>
+  
+   <Footer/>
    </>
      )
 }

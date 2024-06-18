@@ -1,0 +1,47 @@
+/* src/Services.css */
+
+.service-card-wrapper {
+    cursor: pointer;
+  }
+  
+  .service-card {
+    height: 350px; /* Increased height */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-image {
+    height: 100%; /* Adjust height for the image */
+    object-fit: cover;
+  }
+  
+  .service-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center; /* Center the heading text */
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #555;
+    text-align: center; /* Center the description text */
+  }
+  
+  .service-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 0;
+  }
