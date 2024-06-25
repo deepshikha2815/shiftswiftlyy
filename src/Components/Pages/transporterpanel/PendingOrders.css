@@ -1,0 +1,25 @@
+/* PendingOrders.css */
+
+.order-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .order-list-item h5 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-list-item p {
+    margin-bottom: 0.25rem;
+  }
+  
+  .order-list-item .btn {
+    min-width: 90px;
+  }
+  

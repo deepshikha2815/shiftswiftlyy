@@ -1,39 +1,40 @@
+/* Container for the about section with background color and padding */
 .about-container {
-    background-color: #b1dfe2;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(123, 146, 191, 0.1);
-  }
-  
-  .about-container h2, .about-container h3 {
-    font-family: 'Arial', sans-serif;
-    color: #333;
-  }
-  
-  .about-text {
-    font-family: 'Arial', sans-serif;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  .carousel-img {
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .value-card {
-    margin-top: 20px;
-  }
-  
-  .value-card .card-title {
-    font-family: 'Arial', sans-serif;
-    color: #333;
-  }
-  
-  .value-card .card-text {
-    font-family: 'Arial', sans-serif;
-    color: #555;
-  }
-  
+  background-color: #d8ebfb; /* Light grey background color */
+  padding: 40px 0; /* Padding to add space around the content */
+}
+
+/* Text styling for the about section */
+.about-text {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Carousel images styling */
+.carousel-img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Card styling for values section */
+.value-card {
+  margin-top: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.value-card .card-body {
+  text-align: center;
+}
+
+.value-card .card-title {
+  font-size: 1.5rem;
+  color: #ff7e5f;
+}
+
+.value-card .card-text {
+  color: #555;
+}

@@ -1,63 +1,53 @@
-/* Background for the entire container */
-.contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh; /* Adjust as needed */
-    background: linear-gradient(45deg, #3cbecd, #d595f2); /* Gradient background */
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  /* Form wrapper to add some padding and border radius */
-  .form-wrapper {
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
-    max-width: 500px; /* Adjust the width as needed */
-    width: 100%;
-  }
-  
-  /* Styling for the form */
-  .contact-form {
-    max-width: 100%;
-  }
-  
-  /* Form heading */
-  .form-wrapper h2 {
-    font-family: 'Arial', sans-serif;
-    color: #333;
-  }
-  
-  /* Form labels */
-  .form-wrapper .form-label {
-    font-weight: bold;
-    color: #555;
-  }
-  
-  /* Form controls (inputs) */
-  .form-wrapper .form-control {
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    transition: border-color 0.3s ease;
-  }
-  
-  .form-wrapper .form-control:focus {
-    border-color: #ff7e5f;
-    box-shadow: 0 0 5px rgba(255, 126, 95, 0.5);
-  }
-  
-  /* Submit button */
-  .form-wrapper .btn-primary {
-    background-color: #ff7e5f;
-    border-color: #ff7e5f;
-    transition: background-color 0.3s ease;
-  }
-  
-  .form-wrapper .btn-primary:hover {
-    background-color: #135468;
-    border-color: #115e85;
-  }
-  
+.contact-us-container {
+   background: linear-gradient(90deg, #97eff9, #d8a2c1);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-container h2 {
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-info i {
+  margin-right: 10px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #060606;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #a5603d;
+}
+
+form .form-group {
+  margin-bottom: 20px;
+}
+
+form .form-text {
+  font-size: 12px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}

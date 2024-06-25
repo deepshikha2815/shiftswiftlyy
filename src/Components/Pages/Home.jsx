@@ -22,7 +22,7 @@ const Home = () => {
         style={imageStyle}
           className="d-block w-100"
           alt="First slide"
-          src={process.env.PUBLIC_URL+'/a.jpeg'}
+          src={process.env.PUBLIC_URL+'/slider1.jpg'}
           
         />
         <Carousel.Caption>
@@ -35,7 +35,7 @@ const Home = () => {
         <img
          style={imageStyle}
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+'/a.jpeg'}         
+          src={process.env.PUBLIC_URL+'/slider2.jpg'}         
            alt="Second slide"
         />
         <Carousel.Caption>
@@ -48,7 +48,7 @@ const Home = () => {
         <img
          style={imageStyle}
           className="d-block w-100"
-          src={process.env.PUBLIC_URL+'/a.jpeg'}         
+          src={process.env.PUBLIC_URL+'/slider3.jpg'}         
            alt="Third slide"
         />
         <Carousel.Caption>

@@ -1,0 +1,90 @@
+/* Container for the login page with gradient background */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 89vh;
+    background: linear-gradient(90deg, #a9efc0, #8dc9ef);
+    padding: 20px;
+  }
+  
+  /* Form wrapper to add some padding and border radius */
+  .form-wrapper {
+    background-color: rgba(193, 188, 188, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .welcome-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sub-text {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  /* Form controls (inputs) */
+  .form-wrapper .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-wrapper .form-control:focus {
+    border-color: #6e8efb;
+    box-shadow: 0 0 10px rgba(110, 142, 251, 0.5);
+  }
+  
+  /* Submit button */
+  .form-wrapper .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .form-wrapper .btn-primary:hover {
+    background-color: #218838;
+    border-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  /* Labels aligned to the right */
+  .form-label {
+    text-align: right;
+  }
+  
+  /* Options below the form */
+  .options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .option-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .option-link:hover {
+    text-decoration: underline;
+  }
+  
+  .separator {
+    margin: 0 10px;
+    color: #777;
+  }
+  

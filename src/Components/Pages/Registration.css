@@ -1,10 +1,10 @@
 /* Background for the entire container */
-.registration-container {
+.login-container {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 80vh; /* Adjust as needed */
-  background: linear-gradient(45deg, #3cbecd, #d595f2); /* Gradient background */
+  background: linear-gradient(45deg, #7badf4, #c4fae3); /* Different gradient background */
   padding: 20px;
   border-radius: 10px;
 }
@@ -20,7 +20,7 @@
 }
 
 /* Styling for the form */
-.registration-form {
+.login-form {
   max-width: 100%;
 }
 

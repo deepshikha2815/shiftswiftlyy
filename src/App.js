@@ -8,6 +8,10 @@ import Services from './Components/Pages/Services';
 import Registration from './Components/Pages/Registration';
 import Login from './Components/Modules/Login';
 import About from './Components/Pages/About';
+import TransporterPanel from './Components/Pages/transporterpanel/TransporterPanel';
+import PendingOrders from './Components/Pages/transporterpanel/PendingOrders';
+import OrderCompletePage from './Components/Pages/transporterpanel/OrderCompletePage';
+import Tlogin from './Components/Pages/transporterpanel/Tlogin';
 
 function App() {
   return (
@@ -20,6 +24,14 @@ function App() {
         <Route path="/Registration" element={<Registration/>} />
         <Route path="/login" element={<Login/>} /> 
         <Route path="/About" element={<About/>} /> 
+        <Route path="/transporterpanel" element={<TransporterPanel />} /> 
+        <Route path="/pendingorders" element={<PendingOrders/>} /> 
+        <Route path="/ordercomplete" element={<OrderCompletePage/>} /> 
+        <Route path="/tlogin" element={<Tlogin/>} /> 
+
+
+        
+
       </Routes>
     </BrowserRouter>
   );

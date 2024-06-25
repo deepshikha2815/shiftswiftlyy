@@ -16,9 +16,10 @@ const Header = () => {
             <Nav.Link href="services" className="mx-3">Services</Nav.Link>
             <Nav.Link href="about" className="mx-3">About</Nav.Link>
             <Nav.Link href="contact" className="mx-3">Contact</Nav.Link>
-            
             <Nav.Link href="login" className="mx-3">Login</Nav.Link>
             <Nav.Link href="registration" className="mx-3">Register</Nav.Link>
+            <Nav.Link href="transporterpanel" className="mx-3">Transportor</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

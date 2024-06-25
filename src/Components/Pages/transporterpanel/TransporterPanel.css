@@ -1,0 +1,29 @@
+.transporter-panel {
+  background-image: url("C:\Users\ASUS\OneDrive\Desktop\shiftswiftly\public\t.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Make sure the background covers the entire viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transporter-card {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+  border-radius: 10px;
+  border: 1px solid #ddd; /* Light gray border */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.card-title-left {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+}
+
+.card-count-right {
+  font-size: 2rem;
+  color: #007bff; /* Blue color for counts */
+  font-weight: bold;
+}
