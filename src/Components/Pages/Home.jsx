@@ -10,7 +10,7 @@ const Home = () => {
   const imageStyle = {
     height: '500px', // Set the desired height
     width: '800px',  // Set the desired width
-    objectFit: 'cover'
+    objectFit: 'cover',
   };
   
 
